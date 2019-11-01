@@ -1,0 +1,132 @@
+/* student -> 180107193 Khamze Sultan Bibarys*/
+body{
+	background-color: #F8F8F8;
+}
+#chooseword{
+	position: relative;
+	text-align: center;
+	margin-top: 50px;
+	color:#3B3635;
+	margin-bottom: 30px;
+	font-size: 25px;
+}
+.choose{
+	position: relative;
+	display:flex;
+	text-align: center;
+	margin-left: 205px;
+}
+.coffee {
+	width: 27%;
+	margin-left: 10px;
+}
+.coffee svg{
+	fill:#38BAEC;
+}
+.coffee p{
+	font-size: 14px;
+	color:#959291;
+}
+.coffee h3{
+	color:#292828;
+}
+
+.music{
+	width:27%;
+	margin-left: 10px;
+}
+.music svg{
+	fill:#38BAEC;
+}
+.music p{
+	font-size: 14px;
+	color:#959291;
+}
+.music h3{
+	color:#292828;
+}
+
+.location{
+	width:27%;
+	margin-left: 10px;
+}
+.location svg{
+	fill:#38BAEC;
+}
+.location p{
+	font-size: 14px;
+	color:#959291;
+}
+.location h3{
+	color:#292828;
+}
+/**/
+#feautred-menu{
+	position: relative;
+	text-align: center;
+	margin-top:50px;
+	color:#3B3635;
+	font-size: 25px;
+}
+
+.menu img{
+	border-radius: 10px;
+	float:left;
+}
+.menu{
+	position:relative;
+	display:inline-block;
+	margin-left:100px;
+	margin-top: 30px;
+}
+.menu a{
+	margin-left: 20px;
+	text-decoration-line: none;
+	font-size: 18px;
+	color:#434343;
+}
+.menu a:hover{
+	color:#D47463;
+}
+.menu p{
+	padding-left: 150px;
+	color:#ABABAB;
+}
+.hg{
+	margin-top: 25px;
+	width:37%;
+}
+.bakb{
+	margin-top: 25px;
+	width:37%;
+}
+.buritto{
+	margin-top: 25px;
+	width: 37%;
+}
+.cupcakes{
+	margin-top: 25px;
+	width: 37%;
+}
+.frtoast{
+	margin-top: 25px;
+	width:37%;
+}
+.guac{
+	margin-top: 25px;
+	width:37%;
+}
+#seeall{
+
+	text-align: center;
+	margin:auto;
+	background-color:#FC6F44;
+	display: grid;
+	justify-content: space-evenly;
+    grid-template-columns: 50px; /*Make the grid smaller than the container*/
+    grid-gap: 10px;
+    padding: 9px 25px 9px 25px;
+    border:none;
+    color:white;
+    font-size: 17
+}
